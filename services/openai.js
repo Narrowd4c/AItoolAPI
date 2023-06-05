@@ -14,7 +14,7 @@ async function chatAI({ content, description }) {
       },
       {
         role: 'system',
-        content: '好的，我會遵守這個規則。',
+        content: '好的，我會遵守。',
       },
       {
         role: 'user',

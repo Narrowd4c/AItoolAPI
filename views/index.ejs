@@ -13,17 +13,17 @@
   <form action="/" method="post">
     <div class="card">
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/800px-International_Pok%C3%A9mon_logo.svg.png"
+        src="https://1.bp.blogspot.com/-DEe1iYUY1DU/XexrASNOhNI/AAAAAAABWko/fElz2C7onyEgXQqYon0ZqJyGkPrORWQIgCNcBGAsYHQ/s1600/nigaoe_napoleon_horse.png"
         alt="pokemon_logo" class="card-img">
-      <h1 class="card-title">猜猜我是誰</h1>
+      <h1 class="card-title">名言佳句</h1>
       <p class="card-text">
         <% if (description.length) { %>
           <%= description %>
         <% } else { %>
-          <%= '???' %>
+          <%= '請輸入人名' %>
         <% } %>
       </p>
-      <input type="text" name="description" class="card-input" placeholder="填寫寶可夢提示文字" />
+      <input type="text" name="description" class="card-input" placeholder="輸入人名" />
       <button type="submit" class="card-btn">送出</button>
     </div>
   </form>

@@ -21,9 +21,10 @@ body {
   border-radius: 16px;
   background-color: #222222;
   padding: 32px 24px; 
+  max-width: 700px;
 }
 .card-img {
-  width: 150px;
+  width: 600px;
 }
 .card-title {
   font-size: 20px;
@@ -40,7 +41,7 @@ body {
   border: none;
 }
 .card-btn {
-  background-color: #ffce45;
+  background-color: #4570ff;
   color: white;
   padding: 8px 16px;
   border-radius: 8px;
