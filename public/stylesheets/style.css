@@ -25,7 +25,7 @@ body {
   max-width: 700px;
 }
 .card-img {
-  width: 50%;
+  width: 30%;
   height: auto;
 }
 .card-title {
@@ -34,7 +34,7 @@ body {
   margin-bottom: 24px;
 }
 .card-text {
-  font-size: 40px;
+  font-size: 24px;
 }
 .card-input {
   padding: 10px 20px;
